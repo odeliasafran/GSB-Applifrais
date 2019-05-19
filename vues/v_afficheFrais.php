@@ -1,6 +1,6 @@
 
 <div class="row">    
-    <h2>Renseigner ma fiche de frais du mois 
+    <h2><FONT color="darkorange">Valider les fiches de frais</FONT> 
         <?php echo $numMois . '-' . $numAnnee ?>
     </h2>
     <h3>Eléments forfaitisés</h3>
@@ -17,10 +17,11 @@
                     <div class="form-group">
                         <label for="idFrais"><?php echo $libelle ?></label>
                         <input type="text" id="idFrais" 
-                               name="lesFrais[<?php echo $idFrais ?>]"
-                               size="10" maxlength="5" 
-                               value="<?php echo $quantite ?>" 
-                               class="form-control">
+                            name="lesFrais[<?php echo $idFrais ?>]"
+                            size="10" maxlength="5" 
+                            value="<?php echo $quantite ?>" 
+                            class="form-control"
+                        >
                     </div>
                     <?php
                 }
